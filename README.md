@@ -1,6 +1,6 @@
 # Awesome-Live-Streaming-Tech
 
-# Top Live Streaming Tech Ecosystem
+## Top Live Streaming Tech Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Real-Time Video Production, Multistreaming & Self-Hosted Broadcasting*  
