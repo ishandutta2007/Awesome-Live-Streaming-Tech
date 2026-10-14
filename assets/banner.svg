@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c14"/>
+      <stop offset="50%" stop-color="#0f1424"/>
+      <stop offset="100%" stop-color="#0d111a"/>
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="badgeBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="streamBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes pulseLive {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(1.25); }
+      }
+      @keyframes waveDrift {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -400; }
+      }
+      @keyframes barEqualizer1 {
+        0%, 100% { height: 10px; y: 320px; }
+        50% { height: 32px; y: 298px; }
+      }
+      @keyframes barEqualizer2 {
+        0%, 100% { height: 26px; y: 304px; }
+        50% { height: 12px; y: 318px; }
+      }
+      @keyframes barEqualizer3 {
+        0%, 100% { height: 16px; y: 314px; }
+        50% { height: 38px; y: 292px; }
+      }
+      @keyframes barEqualizer4 {
+        0%, 100% { height: 34px; y: 296px; }
+        50% { height: 18px; y: 312px; }
+      }
+      @keyframes barEqualizer5 {
+        0%, 100% { height: 20px; y: 310px; }
+        50% { height: 40px; y: 290px; }
+      }
+      @keyframes floatOrb {
+        0%, 100% { transform: translateY(0px) scale(1); opacity: 0.25; }
+        50% { transform: translateY(-15px) scale(1.1); opacity: 0.45; }
+      }
+      .live-dot {
+        animation: pulseLive 1.8s infinite ease-in-out;
+        transform-origin: 1056px 56px;
+      }
+      .stream-wave-1 {
+        stroke-dasharray: 20, 20;
+        animation: waveDrift 14s linear infinite;
+      }
+      .stream-wave-2 {
+        stroke-dasharray: 15, 25;
+        animation: waveDrift 18s linear infinite reverse;
+      }
+      .eq-bar-1 { animation: barEqualizer1 1.2s infinite ease-in-out; }
+      .eq-bar-2 { animation: barEqualizer2 0.9s infinite ease-in-out; }
+      .eq-bar-3 { animation: barEqualizer3 1.5s infinite ease-in-out; }
+      .eq-bar-4 { animation: barEqualizer4 1.1s infinite ease-in-out; }
+      .eq-bar-5 { animation: barEqualizer5 1.4s infinite ease-in-out; }
+      .glow-orb { animation: floatOrb 6s infinite ease-in-out; }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 52px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        fill: #cbd5e1;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Subtle Grid Pattern in Background -->
+  <g opacity="0.07" stroke="#94a3b8" stroke-width="1">
+    <line x1="0" y1="76" x2="1200" y2="76" />
+    <line x1="0" y1="152" x2="1200" y2="152" />
+    <line x1="0" y1="228" x2="1200" y2="228" />
+    <line x1="0" y1="304" x2="1200" y2="304" />
+    <line x1="200" y1="0" x2="200" y2="380" />
+    <line x1="400" y1="0" x2="400" y2="380" />
+    <line x1="600" y1="0" x2="600" y2="380" />
+    <line x1="800" y1="0" x2="800" y2="380" />
+    <line x1="1000" y1="0" x2="1000" y2="380" />
+  </g>
+
+  <!-- Ambient Dynamic Glowing Orbs (Behind content) -->
+  <g class="glow-orb">
+    <circle cx="180" cy="120" r="140" fill="#3b82f6" opacity="0.12" filter="url(#glow)"/>
+    <circle cx="980" cy="220" r="160" fill="#8b5cf6" opacity="0.10" filter="url(#glow)"/>
+    <circle cx="600" cy="300" r="110" fill="#06b6d4" opacity="0.08" filter="url(#glow)"/>
+  </g>
+
+  <!-- Dynamic Signal Wave Paths (Behind text) -->
+  <g opacity="0.35">
+    <path class="stream-wave-1" d="M -50 260 Q 250 180, 550 250 T 1150 230 T 1300 250" fill="none" stroke="url(#badgeBorderGrad)" stroke-width="2.5"/>
+    <path class="stream-wave-2" d="M -50 140 Q 300 80, 650 130 T 1250 110" fill="none" stroke="#06b6d4" stroke-width="1.8"/>
+  </g>
+
+  <!-- Top Decorative Bar: Category Pill & Live Badge -->
+  <g id="top-bar">
+    <!-- Category Tag -->
+    <rect x="70" y="38" width="220" height="34" rx="17" fill="#1e293b" stroke="url(#badgeBorderGrad)" stroke-width="1.5" opacity="0.95"/>
+    <text x="88" y="60" class="pill-text" fill="#38bdf8">⚡ CURATED REPO DIRECTORY</text>
+
+    <!-- LIVE ON AIR Badge -->
+    <rect x="1020" y="38" width="112" height="34" rx="17" fill="#450a0a" stroke="#ef4444" stroke-width="1.5"/>
+    <!-- Animated Live Pulsing Dot -->
+    <circle cx="1042" cy="55" r="5" fill="#ef4444" class="live-dot" filter="url(#softGlow)"/>
+    <circle cx="1042" cy="55" r="5" fill="#ef4444"/>
+    <text x="1058" y="60" class="pill-text" fill="#fca5a5" font-weight="700">LIVE</text>
+  </g>
+
+  <!-- Foreground Main Title & Subtitle (Always in foreground, never obscured) -->
+  <g id="main-content">
+    <!-- Icon Symbol (Broadcast Tower & Screen) -->
+    <g transform="translate(70, 102)">
+      <rect width="64" height="64" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <!-- Broadcast Tower SVG Path -->
+      <path d="M 24 46 L 32 18 L 40 46 M 27 36 L 37 36" stroke="#60a5fa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <circle cx="32" cy="18" r="3.5" fill="#38bdf8"/>
+      <!-- Radiating Signal Waves -->
+      <path d="M 23 14 A 12 12 0 0 0 17 26" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 41 14 A 12 12 0 0 1 47 26" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 20 8 A 20 20 0 0 0 12 28" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      <path d="M 44 8 A 20 20 0 0 1 52 28" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+    </g>
+
+    <text x="150" y="142" class="title-text" fill="url(#primaryTextGrad)">Awesome Live Streaming Tech</text>
+    <text x="70" y="206" class="subtitle-text">The definitive guide to SaaS production studios, self-hosted media servers, and broadcast infrastructure.</text>
+    <text x="70" y="234" class="subtitle-text" font-size="16px" fill="#64748b">Real-time video encoding • WebRTC / SRT / RTMP pipelines • Multi-CDN delivery • Cloud &amp; self-hosted workflows</text>
+  </g>
+
+  <!-- Bottom Pills & Audio Equalizer (Dynamic & Modern) -->
+  <g id="footer-elements">
+    <!-- Tech Stack Pill Tags -->
+    <g transform="translate(70, 276)">
+      <!-- Pill 1: WebRTC -->
+      <rect x="0" y="0" width="105" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="17" r="4" fill="#10b981"/>
+      <text x="28" y="22" class="tag-text">WebRTC</text>
+
+      <!-- Pill 2: OBS Studio -->
+      <rect x="117" y="0" width="120" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="133" cy="17" r="4" fill="#3b82f6"/>
+      <text x="145" y="22" class="tag-text">OBS Studio</text>
+
+      <!-- Pill 3: RTMP & SRT -->
+      <rect x="249" y="0" width="125" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="265" cy="17" r="4" fill="#8b5cf6"/>
+      <text x="277" y="22" class="tag-text">RTMP / SRT</text>
+
+      <!-- Pill 4: MediaMTX -->
+      <rect x="386" y="0" width="115" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="402" cy="17" r="4" fill="#ec4899"/>
+      <text x="414" y="22" class="tag-text">MediaMTX</text>
+
+      <!-- Pill 5: Multistreaming -->
+      <rect x="513" y="0" width="145" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="529" cy="17" r="4" fill="#f59e0b"/>
+      <text x="541" y="22" class="tag-text">Multistreaming</text>
+
+      <!-- Pill 6: HLS / LL-HLS -->
+      <rect x="670" y="0" width="125" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="686" cy="17" r="4" fill="#06b6d4"/>
+      <text x="698" y="22" class="tag-text">LL-HLS / DASH</text>
+    </g>
+
+    <!-- Dynamic Live Audio Spectrum Equalizer (Right side) -->
+    <g transform="translate(1015, 0)" opacity="0.9">
+      <rect x="0" y="295" width="6" height="35" rx="3" fill="#38bdf8" class="eq-bar-1"/>
+      <rect x="12" y="300" width="6" height="30" rx="3" fill="#60a5fa" class="eq-bar-2"/>
+      <rect x="24" y="290" width="6" height="40" rx="3" fill="#818cf8" class="eq-bar-3"/>
+      <rect x="36" y="298" width="6" height="32" rx="3" fill="#a855f7" class="eq-bar-4"/>
+      <rect x="48" y="288" width="6" height="42" rx="3" fill="#c084fc" class="eq-bar-5"/>
+      <rect x="60" y="296" width="6" height="34" rx="3" fill="#f43f5e" class="eq-bar-2"/>
+      <rect x="72" y="302" width="6" height="28" rx="3" fill="#ec4899" class="eq-bar-1"/>
+      <rect x="84" y="292" width="6" height="38" rx="3" fill="#38bdf8" class="eq-bar-4"/>
+      <rect x="96" y="304" width="6" height="26" rx="3" fill="#06b6d4" class="eq-bar-3"/>
+      <rect x="108" y="296" width="6" height="34" rx="3" fill="#10b981" class="eq-bar-5"/>
+    </g>
+  </g>
+</svg>

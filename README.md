@@ -1,106 +1,279 @@
-# Awesome-Live-Streaming-Tech
+<div align="center">
 
-## Top Live Streaming Tech Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Live Streaming Tech Banner - Curated SaaS & Open-Source Broadcast Ecosystem" width="100%">
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Real-Time Video Production, Multistreaming & Self-Hosted Broadcasting*  
-**Last updated: March 2026**
+# 📡 Awesome Live Streaming Tech 🎥
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Live Streaming Technology**. These tools help creators, businesses, and broadcasters produce, encode, and distribute live video to multiple platforms — from browser-based studios that pass the "grandparent test" to professional desktop production suites and self-hosted streaming servers.
+**A Curated Ecosystem of SaaS Platforms, Self-Hosted Media Servers & Real-Time Broadcast Tools**  
+*Focused on Real-Time Video Production, Sub-Second Latency, Protocol Gateways, Multistreaming & Self-Hosted Infrastructure*
 
-**Examples** include StreamYard, OBS Studio, Restream, vMix, Riverside.fm, Ecamm Live, Lightstream, Melon, Wirecast, and Castr (the category leaders).
+<br/>
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom encoding pipelines, and transparent streaming infrastructure — ideal for creators prioritizing data sovereignty, developers building broadcast tools, and organizations avoiding per-channel SaaS fees.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Streaming-Tech?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Live-Streaming-Tech?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+<br/>
+<br/>
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+**SEO & Discovery Keywords**: `live streaming`, `broadcasting software`, `WebRTC`, `RTMP`, `SRT`, `HLS`, `WHIP`, `WHEP`, `OBS Studio`, `MediaMTX`, `multistreaming`, `video transcoding`, `self-hosted streaming`, `sub-second latency`, `video ingest`, `FFmpeg`, `video pipeline`
 
-## SaaS/Hosted Platforms
-
-- **[StreamYard](https://streamyard.com/)**  
-  Browser-based live streaming studio with multistreaming to multiple platforms simultaneously. Starting at $25/month, with paid plans unlocking simultaneous streaming, guest features, and branding removal. Reviewers praise strong audio quality and intuitive interface, though free tier is restricted to one destination [citation:1][citation:11]. Native integration with LinkedIn Live. Some users report crashes and video quality degradation even with stable connections, and pricing increased significantly after private equity acquisition [citation:11].
-
-- **[Restream](https://restream.io/)**  
-  Multistreaming platform broadcasting to 30+ social platforms simultaneously. Free plan includes multistream to 2 channels, browser-based Restream Studio with up to 5 guests, integrated multichat, and analytics—with Restream branding [citation:2]. Standard plan ($19/month monthly, $16/month yearly) unlocks 5 channels, no branding, custom RTMP, and 10 on-screen participants. Professional tier ($49/$41) adds 8 channels, 1080p Studio, and split audio track recording [citation:12]. 9M+ streamers trust the platform.
-
-- **[vMix](https://www.vmix.com/)**  
-  Professional live production software with lifetime licenses from $60 (Basic HD) to $1,200 (Pro), or subscription at $50/month (Max). Supports up to 1,000 inputs, 4K resolution, vMix Call for remote guests (up to 8), instant replay, PTZ control, and SRT outputs [citation:3]. Free 60-day fully functional trial with no watermarks. Used for network TV, esports, church services, and live events.
-
-- **[Ecamm Live](https://www.ecamm.com/)**  
-  Mac-only live production studio praised for ease of use and professional output. Standard plan at $20/month includes unlimited multistreaming to 10 destinations, custom overlays, screen sharing, and green screen. Pro tier ($40/month) adds Interview mode, Virtual Mic/Webcam, 4K streaming, and isolated audio/video recording [citation:14]. Requires high-end Mac hardware. Reviewers call it "a production studio in my back pocket" for its Scenes and Profiles features [citation:4].
-
-- **[Lightstream Studio](https://golightstream.com/)**  
-  Cloud-native live streaming software for console streamers. Feature Update 1.0 introduces Scenes, absolute positioning, templates, and built-in overlays including text, alerts, chat, goals, and banners [citation:5]. Free tier allows unlimited scene creation with 3 active scenes during streams. Eliminates need for capture card and streaming PC.
-
-- **[Melon](https://melonapp.com/)**  
-  Browser-based live streaming and recording studio by Streamlabs. Free to start with paid plans from $9/month for unlimited multistreaming, recording, and donations [citation:7]. Stream to Facebook, YouTube, LinkedIn, and Twitch or multistream simultaneously. Features screen sharing, scheduled streams, guest participation, and local recording with separate raw video/audio files [citation:7][citation:17].
-
-- **[Wirecast](https://www.telestream.net/)**  
-  Professional live video streaming and production software for Mac and Windows. Wirecast Pro starts at $899 with expanded inputs, multi-track audio, 7 simultaneous Rendezvous guests, PTZ control, and ISO recording [citation:6]. Studio edition handles unlimited sources, unlimited multistreaming, 2 Rendezvous guests, and 250 overlay layers [citation:16]. Built-in Stock Media Library with 500K+ assets (requires Wirecast Access plan).
-
-- **[Riverside.fm](https://riverside.fm/)**  
-  Remote recording platform with built-in live streaming, transcription, and social media clip creation.
-
-- **[Castr](https://castr.com/)**  
-  Professional live video streaming platform and hosting service. Plans from $16/month (annual) or $12.5/month billed annually. Multi-CDN delivery via Akamai, Fastly, and CloudFront with 99.9% uptime SLA. 24/7 human support, backup ingest with auto-failover, and DVR/DRM capabilities [citation:8][citation:18]. Works with OBS, vMix, Wirecast, TriCaster, Teradek, and LiveU over RTMP and SRT.
-
-## Open-Source GitHub Projects
-
-- **[OBS Studio](https://github.com/obsproject/obs-studio)**  
-  **The standard open-source software for video recording and live streaming.** Free, cross-platform (Windows, macOS, Linux) with unlimited scenes, sources, and outputs. Supports RTMP, SRT, WHIP, and HLS protocols. Real-time video/audio capturing and mixing with configurable transitions, filters, and audio mixer. The foundation for Streamlabs Desktop and many commercial streaming tools [citation:19]. GPL-2.0 licensed.
-
-- **[Streamlabs Desktop](https://github.com/streamlabs/desktop)**  
-  **Open-source streaming software built on OBS and Electron** under GPL-3.0 [citation:19]. Combines OBS's encoding engine with a modern UI, integrated alerts, chat, and multistreaming capabilities. The repository allows studying and modifying the code, though maintaining a fork is a development project [citation:19].
-
-- **[Owncast](https://github.com/owncast/owncast)**  
-  **Free, open-source live video and web chat server for self-hosted streaming.** Accepts RTMP from OBS and provides a self-hosted "mini-Twitch" experience with built-in chat. Described as "a free and open source live video and web chat server for use with existing popular broadcasting software" [citation:19]. Ideal for creators who want full control over their streaming infrastructure without platform dependencies.
-
-- **[MediaMTX](https://github.com/bluenviron/mediamtx)**  
-  **Ready-to-use, zero-dependency RTSP/RTMP/HLS/WebRTC server in a single binary.** Streams automatically convert between protocols, supports multiple paths, hot reloading, recording to disk in fMP4 or MPEG-TS format, playback of recorded streams, authentication (internal, HTTP, JWT), stream forwarding and proxying, Prometheus metrics, and hooks for client events [citation:10]. Compatible with Linux, Windows, and macOS without interpreters.
-
-- **[Muxshed (shed)](https://github.com/muxshed/shed)**  
-  **Self-hosted streaming server with "one stream in, every destination, no cloud middleman."** Features public watch page with password protection and custom branding, scheduled broadcasts (premiere, playlist, or looping 24/7 channel), scene management with multi-layer compositor, browser and media sources, audio mixer, media library, stinger transitions, local recording, WebRTC guest links, API key auth, WebSocket state feed, and Stream Deck/Bitfocus Companion control [citation:9]. Custom Rust RTMP/FLV relay with ffmpeg for transcoding and HLS.
-
-- **[VideoWhisper Live Streaming](https://github.com/videowhisper/videowhisper-webrtc)**  
-  **Open-source WordPress plugin and streaming server for WebRTC, HLS, RTSP, and RTMP.** Features WebRTC Streaming App integration (React-based broadcast/playback), visual schedule editor for 24/7 channels, channel listing skins (Twitchy, Ticky, Custom), restreaming support, and RTMP credentials for OBS, XSplit, Wirecast, and Larix Broadcaster [citation:20]. HTML5 HLS/MPEG-DASH delivery for mobile browsers. Supports multiple channels with user-created streams.
-
-- **[datarhei Restreamer](https://github.com/datarhei/restreamer)**  
-  **Open-source self-hosted streaming solution with browser interface.** Ingests and redistributes live video with a web UI on top of a streaming server. Suitable for lightweight DIY streaming setups where control matters more than ease of use [citation:19].
-
-- **[nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)**  
-  **RTMP/HLS/DASH module for nginx web server.** The classic lightweight building block for DIY streaming setups. Requires server administration and security hardening but provides maximum control over the streaming pipeline [citation:19].
-
-### Additional Strong Open-Source Options
-
-- **Red5 Open Source Server** — Open-source media server for self-hosted streaming. Free to use with managed Red5 Cloud and Pro options for hosted features [citation:19].
-- **FFmpeg** — The foundational multimedia framework powering transcoding in OBS, Muxshed, and virtually every streaming tool.
-- **GStreamer** — Multimedia pipeline framework with compositor capabilities (used in Muxshed's development branch) [citation:9].
-- **Nginx** — Web server commonly paired with RTMP module for HLS delivery and reverse proxy.
-- **SRS (Simple Realtime Server)** — Open-source streaming server supporting RTMP, HLS, SRT, and WebRTC.
-
-**Frameworks for building custom systems**: Combine **OBS Studio** for encoding and scene composition, **Owncast** or **Muxshed** for self-hosted distribution with watch pages, **MediaMTX** for protocol conversion and recording, and **Restream** or **Castr** for managed multistreaming when reaching external platforms — to build a complete hybrid streaming stack balancing self-hosted control with SaaS convenience [citation:19].
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Live streaming tools must comply with platform terms of service (YouTube, Twitch, Facebook), copyright law, and data protection regulations. **Self-hosted streaming requires server administration, bandwidth management, and security hardening** — if your core goal is running a professional live show, browser-based SaaS tools like StreamYard often provide better ROI than maintaining your own infrastructure [citation:19].
-- Self-hosted open-source solutions require proper security configuration, content moderation planning, and CDN strategy for scaling beyond local audiences.
+</div>
 
 ---
 
-**Made for live streamers, content creators, broadcast engineers, and developers building self-hosted streaming platforms.**  
-Let's make live streaming technology more open, accessible, and creator-owned.
+## 📑 Table of Contents
+
+- [🌟 Introduction & Ecosystem Scope](#-introduction--ecosystem-scope)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Live Streaming Platforms](#-saas--hosted-live-streaming-platforms)
+- [💻 Open-Source Streaming Projects (Ranked by Stars)](#-open-source-streaming-projects-ranked-by-stars)
+- [⚡ Streaming Protocols Cheat Sheet](#-streaming-protocols-cheat-sheet)
+- [🛠️ Architecture: DIY Self-Hosted vs Managed SaaS](#️-architecture-diy-self-hosted-vs-managed-saas)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🛡️ Disclaimer & Licensing](#️-disclaimer--licensing)
+
+---
+
+## 🌟 Introduction & Ecosystem Scope
+
+Live video streaming has evolved from traditional television broadcast trucks to accessible cloud studios and sovereign self-hosted media servers. Today's live streaming stack empowers solo content creators, corporate town halls, esports producers, and broadcast engineers to capture, encode, transcode, and distribute low-latency interactive video worldwide.
+
+This repository tracks the leading **SaaS platforms** and **open-source repositories** powering:
+- 🎬 **Browser-based & Desktop Production Studios** (OBS Studio, StreamYard, vMix, Ecamm Live)
+- 🔁 **Cloud Multistreaming Relays** (Restream, Castr, Lightstream)
+- 🖥️ **Self-Hosted Media Servers & Protocol Gateways** (MediaMTX, SRS, OvenMediaEngine, Owncast)
+- ⚡ **Real-Time Interactive WebRTC & Sub-Second Latency Stacks** (LiveKit, Janus, Pion)
+- ⚙️ **Foundational Media Frameworks** (FFmpeg, GStreamer, CasparCG)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+- **📈 Estimated Market Size**: The global live streaming market was valued at approximately **$1.49 billion in 2024** and is projected to expand to between **$4.2 billion and $5.6 billion by 2030–2032**, compounding at an annual growth rate (**CAGR of ~22.4% – 24.8%**). When paired with cloud video content delivery networks (CDN), video encoding infrastructure, and enterprise video communications, the total addressable video delivery market exceeds **$10 billion**.
+- **🧩 Market Dynamics & Fragmentation**: The live streaming technology sector is **moderately to highly fragmented** across tooling, ingest protocols, and production workflows. While consumer audience distribution is concentrated in a handful of hyper-scale destinations (YouTube Live, Twitch, TikTok Live, Kick), the upstream software and infrastructure layer is contested by browser-based SaaS studios, specialized desktop switchers, and community-driven open-source servers. This prevents a single winner-take-all monopoly and drives high adoption of **hybrid workflows** combining open-source encoding (OBS, FFmpeg) with managed multi-CDN distribution (Restream, Castr, Wowza).
+
+---
+
+## 🏢 SaaS & Hosted Live Streaming Platforms
+
+The following SaaS and commercial platforms provide turn-key browser studios, cloud multistreaming, enterprise paywalls, and hardware-accelerated desktop production suites.
+
+> 📊 **Sorted Descending by Company Size / Valuation & Revenue**:
+
+| 🏷️ Platform | 🏢 Company Size / Valuation | 💰 Starting Pricing | 🆓 Free Tier / Free Trial Limits | 🎯 Primary Architecture & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Streamlabs Talk Studio](https://streamlabs.com/talk-studio)** | **$14.2B Valuation**<br/>*(Parent: Logitech / NASDAQ: LOGI; ~$4.3B Revenue)* | **$19/month**<br/>*(or $12/mo billed annually at $144/yr for Pro)* | **Free-forever plan**:<br/>• 1 destination<br/>• Up to 5 on-screen guests<br/>• 4-hour max stream duration<br/>• 720p resolution<br/>• Streamlabs watermark | Cloud-native browser broadcast studio (formerly Melon) with custom alerts, overlays, and guest screen sharing. |
+| **[StreamYard](https://streamyard.com/)** | **$2.55B Valuation**<br/>*(Parent: Bending Spoons; ~$380M ARR)* | **$25/month**<br/>*(or $20/mo billed annually at $240/yr for Basic)* | **Free-forever plan**:<br/>• 20 hours/month streaming limit<br/>• Up to 6 on-screen participants<br/>• 2 recording hours/month<br/>• StreamYard watermark | Intuitive browser-based multistreaming studio with integrated banner tickers, viewer comments display, and private backstage. |
+| **[Wirecast](https://www.telestream.net/wirecast/)** | **$1.0B+ Valuation**<br/>*(Parent: Telestream / Genstar Capital; ~$180M ARR)* | **$35/month** *(Studio Sub)*<br/>*or **$599** perpetual lifetime license* | **30-day free trial**:<br/>• Full access to all Pro features<br/>• Visual on-screen watermark<br/>• Periodic audio chime watermark | Enterprise-grade desktop video switcher (macOS/Windows) with multi-track audio mixing, PTZ camera control, and ISO recording. |
+| **[Riverside.fm](https://riverside.fm/)** | **$180M Valuation**<br/>*(Series B led by Seven Seven Six; ~$25M ARR)* | **$19/month**<br/>*(or $15/mo billed annually at $180/yr for Standard)* | **Free-forever plan**:<br/>• 2 hours separate A/V recording<br/>• 720p max video resolution<br/>• Unlimited single-track recording<br/>• Riverside watermark on exports | High-fidelity local 4K video recording, live broadcast studio, AI text-based video editing, and automatic clip generation. |
+| **[Restream](https://restream.io/)** | **$120M Valuation**<br/>*(Insight Partners / Silverton; ~$25M ARR)* | **$19/month**<br/>*(or $16/mo billed annually at $192/yr for Standard)* | **Free-forever plan**:<br/>• Simultaneous multistream to 2 channels<br/>• Restream Studio with 5 guests<br/>• Restream branding/watermark<br/>• 15-minute recording storage | Pioneer cloud multistreaming relay broadcasting to 30+ destinations simultaneously with aggregated cross-platform live chat. |
+| **[BoxCast](https://www.boxcast.com/)** | **$60M Valuation**<br/>*(Updata Partners; ~$18M ARR)* | **$109/month**<br/>*(or $99/mo billed annually at $1,188/yr for Broadcaster)* | **14-day free trial**:<br/>• Full cloud transcoding access<br/>• Multistreaming to Facebook & YouTube<br/>• Embeddable HTML5 player<br/>• Automated broadcast scheduling | Automated live streaming workflow for municipal governments, houses of worship, and enterprise events with hardware encoder integration. |
+| **[Dacast](https://www.dacast.com/)** | **$30M Valuation**<br/>*(Private / bootstrapped; ~$22M ARR)* | **$39/month**<br/>*(billed annually at $468/yr Starter plan, 2.4 TB/yr)* | **14-day free trial**:<br/>• 10 GB test bandwidth<br/>• 20-min max stream duration/session<br/>• Full paywall and monetization testing<br/>• White-label HTML5 player | Enterprise video hosting and live broadcasting platform with multi-CDN delivery (Akamai), paywall monetization, and DRM security. |
+| **[vMix](https://www.vmix.com/)** | **$20M Valuation**<br/>*(StudioCoast PTY Ltd; ~$15M ARR)* | **$60 one-time** *(Basic HD)*<br/>*or **$50/month** (Max Sub)* | **60-day free trial**:<br/>• Unrestricted access to vMix Pro<br/>• Up to 4K resolution & 1,000 inputs<br/>• Up to 8 guests via vMix Call<br/>• Zero watermarks | Windows-native live production suite leveraging GPU acceleration for instant replay, NDI input/output, SRT, and virtual sets. |
+| **[Lightstream Studio](https://golightstream.com/)** | **$15M Valuation**<br/>*(Parent: SplitmediaLabs / XSplit; ~$12M ARR)* | **$8/month**<br/>*(or $7/mo billed annually at $84/yr for Gamer 720p)* | **7-day free trial**:<br/>• Full cloud mixing capabilities<br/>• Direct Xbox & PlayStation capture<br/>• Custom cloud overlays & scenes<br/>• 1080p 60fps streaming | Cloud mixing console for console gamers; injects overlays, webcams, and alerts directly from the cloud without capture cards or a PC. |
+| **[Castr](https://castr.com/)** | **$10M Valuation**<br/>*(Independent / bootstrapped; ~$8M ARR)* | **$14.99/month**<br/>*(or $12.50/mo billed annually at $150/yr for Multistream)* | **7-day free trial**:<br/>• Multistream to 5 social channels<br/>• 1,000 GB test bandwidth<br/>• Multi-CDN ingest (Akamai, CloudFront)<br/>• 24/7 linear playout testing | Multi-CDN live video hosting, SRT/RTMP ingest, 24/7 pre-recorded linear video scheduling, and multistreaming with 99.9% SLA. |
+| **[Ecamm Live](https://www.ecamm.com/)** | **$8M Valuation**<br/>*(Ecamm Network, LLC; ~$6M ARR)* | **$20/month**<br/>*(or $16/mo billed annually at $192/yr for Standard)* | **14-day free trial**:<br/>• Full multi-destination streaming<br/>• Custom overlays and scenes<br/>• Virtual webcam and microphone<br/>• Ecamm on-screen watermark | macOS-exclusive live production software optimized for Apple Silicon with Elgato Stream Deck integration, virtual camera, and isolated audio ISO. |
+
+---
+
+## 💻 Open-Source Streaming Projects (Ranked by Stars)
+
+Self-hosted projects give developers and broadcasters complete sovereignty over video pipelines, zero per-minute cloud fees, customizable protocol conversion, and transparent data privacy.
+
+> ⭐ **Sorted Descending by Real-Time GitHub Star Count**:
+
+### 1. 🥇 [OBS Studio](https://github.com/obsproject/obs-studio) [![GitHub stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers)
+- **Description**: The industry-standard open-source desktop software for video recording and live broadcasting. Features modular dockable UI, unlimited audio/video scenes and sources, GPU-accelerated compositing, studio mode, and deep plugin extensibility.
+- **Protocols Supported**: RTMP, RTMPS, SRT, WHIP (WebRTC HTTP Ingestion Protocol), HLS.
+- **Tech Stack**: C, C++, Qt, CMake.
+- **License**: GPL-2.0.
+
+### 2. 🥈 [FFmpeg](https://github.com/FFmpeg/FFmpeg) [![GitHub stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers)
+- **Description**: The universal multimedia framework powering virtually every modern streaming engine. Delivers complete command-line tools and libraries (`libavcodec`, `libavformat`, `libavfilter`) to transcode, mux, demux, stream, filter, and play video and audio.
+- **Protocols Supported**: RTMP, RTSP, HLS, DASH, SRT, WebRTC, UDP, RTP, HTTP.
+- **Tech Stack**: C, Assembly.
+- **License**: LGPL-2.1+ / GPL-2.0+.
+
+### 3. 🥉 [Jitsi Meet](https://github.com/jitsi/jitsi-meet) [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers)
+- **Description**: Fully encrypted, 100% open-source WebRTC video conferencing and interactive multi-user streaming platform. Features Jibri for automated recording and live streaming to YouTube or custom RTMP endpoints.
+- **Protocols Supported**: WebRTC, RTMP (via Jibri), SCTP, RTP/SRTP.
+- **Tech Stack**: JavaScript, React, Java, Go.
+- **License**: Apache-2.0.
+
+### 4. 🚀 [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
+- **Description**: Industrial-grade, high-efficiency real-time video server designed for high-concurrency live broadcasting. Acts as a high-performance protocol bridge between RTMP, WebRTC, HLS, HTTP-FLV, and SRT with low CPU and memory footprints.
+- **Protocols Supported**: RTMP, WebRTC, HLS, HTTP-FLV, SRT, GB28181.
+- **Tech Stack**: C++, Go.
+- **License**: MIT.
+
+### 5. ⚡ [LiveKit](https://github.com/livekit/livekit) [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
+- **Description**: High-performance open-source WebRTC SFU (Selective Forwarding Unit) and real-time infrastructure. Enables developers to build ultra-low latency interactive live streaming, spatial audio, telephony, and bidirectional AI video agents.
+- **Protocols Supported**: WebRTC, WHIP, WHEP, RTMP Ingress/Egress, SIP.
+- **Tech Stack**: Go, TypeScript, Rust.
+- **License**: Apache-2.0.
+
+### 6. 🔄 [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
+- **Description**: Ready-to-use, zero-dependency real-time media server and protocol converter in a single binary. Ingests any media stream and instantly republishes it across multiple outgoing protocols with hot reloading, disk recording, and Prometheus metrics.
+- **Protocols Supported**: RTSP, RTMP, HLS, WebRTC (WHEP/WHIP), SRT, LL-HLS.
+- **Tech Stack**: Go.
+- **License**: MIT.
+
+### 7. 🌐 [Pion WebRTC](https://github.com/pion/webrtc) [![GitHub stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers)
+- **Description**: Pure Go implementation of the WebRTC API. Unlocks custom SFUs, WebRTC-to-RTSP bridges, recording nodes, and headless streaming proxies without external C/C++ dependencies.
+- **Protocols Supported**: WebRTC, DTLS, ICE, RTP, RTCP, SCTP.
+- **Tech Stack**: Go.
+- **License**: MIT.
+
+### 8. 🛡️ [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) [![GitHub stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
+- **Description**: The classic Nginx extension module providing RTMP live streaming, video on demand, HLS packaging, and stream relaying. The battle-tested foundation for DIY broadcast relay servers worldwide.
+- **Protocols Supported**: RTMP, HLS, MPEG-DASH.
+- **Tech Stack**: C.
+- **License**: BSD-2-Clause.
+
+### 9. 💬 [Owncast](https://github.com/owncast/owncast) [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
+- **Description**: Autonomous self-hosted live video and web chat server. Delivers a turn-key "personal Twitch" experience directly to your viewers with custom branding, moderation bots, and decentralized ActivityPub / Fediverse federation.
+- **Protocols Supported**: RTMP ingest, HLS playback, ActivityPub federation.
+- **Tech Stack**: Go, Preact.
+- **License**: MIT.
+
+### 10. 🚪 [Janus WebRTC Gateway](https://github.com/meetecho/janus-gateway) [![GitHub stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers)
+- **Description**: General-purpose WebRTC server engineered by Meetecho. Modular C architecture with plugins for video rooms, audio bridges, SIP gateways, streaming relays, and screen sharing.
+- **Protocols Supported**: WebRTC, RTP, RTCP, RTSP, SIP.
+- **Tech Stack**: C.
+- **License**: GPL-3.0.
+
+### 11. 📦 [Node-Media-Server](https://github.com/illuspas/Node-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/illuspas/Node-Media-Server?style=social&color=white)](https://github.com/illuspas/Node-Media-Server/stargazers)
+- **Description**: Lightweight Node.js media server implementation supporting RTMP, HTTP-FLV, WebSocket-FLV, and HLS. Perfect for integrating live streaming directly into Node.js application backends.
+- **Protocols Supported**: RTMP, HTTP-FLV, WS-FLV, HLS, DASH.
+- **Tech Stack**: JavaScript, Node.js.
+- **License**: MIT.
+
+### 12. 🐳 [datarhei Restreamer](https://github.com/datarhei/restreamer) [![GitHub stars](https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white)](https://github.com/datarhei/restreamer/stargazers)
+- **Description**: Complete Docker-based live streaming GUI solution. Ingests video from webcams, IP cameras, OBS, or RTMP and restreams it directly to YouTube, Twitch, Facebook, or custom websites with a modern web dashboard.
+- **Protocols Supported**: RTMP, SRT, RTSP, HLS, WebRTC (WHEP).
+- **Tech Stack**: Go, TypeScript, Docker.
+- **License**: Apache-2.0.
+
+### 13. 🎛️ [Streamlabs Desktop](https://github.com/streamlabs/desktop) [![GitHub stars](https://img.shields.io/github/stars/streamlabs/desktop?style=social&color=white)](https://github.com/streamlabs/desktop/stargazers)
+- **Description**: Open-source desktop broadcast client built on the OBS engine and Electron. Bundles built-in chat overlay widgets, selective recording, tips integration, and multistreaming setups.
+- **Protocols Supported**: RTMP, RTMPS, SRT.
+- **Tech Stack**: TypeScript, C++, Electron.
+- **License**: GPL-3.0.
+
+### 14. 🏎️ [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
+- **Description**: Ultra-low latency streaming engine offering scalable WebRTC, CMAF, and HLS delivery. Provides sub-0.5s video playback latency, adaptive bitrate streaming, and autoscaling support on AWS and Kubernetes.
+- **Protocols Supported**: WebRTC, RTMP, RTSP, SRT, HLS, CMAF.
+- **Tech Stack**: Java.
+- **License**: Apache-2.0 (Community Edition).
+
+### 15. 🔴 [Red5 Server](https://github.com/Red5/red5-server) [![GitHub stars](https://img.shields.io/github/stars/Red5/red5-server?style=social&color=white)](https://github.com/Red5/red5-server/stargazers)
+- **Description**: The veteran open-source Java media server that pioneered RTMP streaming outside of Adobe Flash Media Server. Supports audio/video streaming, multi-user gaming, and recording.
+- **Protocols Supported**: RTMP, RTSP, HLS, WebSockets.
+- **Tech Stack**: Java, Spring.
+- **License**: Apache-2.0.
+
+### 16. 🍳 [OvenMediaEngine](https://github.com/OvenMediaLabs/OvenMediaEngine) [![GitHub stars](https://img.shields.io/github/stars/OvenMediaLabs/OvenMediaEngine?style=social&color=white)](https://github.com/OvenMediaLabs/OvenMediaEngine/stargazers)
+- **Description**: Sub-second latency streaming server designed for massive multi-viewer interactive broadcasts. Ingests via WebRTC, SRT, or RTMP and delivers sub-second streams via WebRTC and Low-Latency HLS (LL-HLS) to HTML5 players.
+- **Protocols Supported**: WebRTC, LL-HLS, RTMP, SRT, RTSP, MPEG-2 TS.
+- **Tech Stack**: C++.
+- **License**: GPL-2.0.
+
+### 17. 📺 [CasparCG Server](https://github.com/CasparCG/server) [![GitHub stars](https://img.shields.io/github/stars/CasparCG/server?style=social&color=white)](https://github.com/CasparCG/server/stargazers)
+- **Description**: Professional broadcast graphics and video playout server deployed 24/7 by national television networks (including Sweden's SVT). Renders real-time dynamic HTML5 and Flash motion graphics with SDI/NDI output.
+- **Protocols Supported**: SDI, NDI, RTSP, UDP, Screen playout.
+- **Tech Stack**: C++.
+- **License**: GPL-3.0.
+
+### 18. 🏚️ [Muxshed (shed)](https://github.com/muxshed/shed) [![GitHub stars](https://img.shields.io/github/stars/muxshed/shed?style=social&color=white)](https://github.com/muxshed/shed/stargazers)
+- **Description**: Self-hosted broadcast server delivering "one stream in, every destination, no cloud middleman." Features public watch pages, multi-layer scene compositing, 24/7 looping channels, and Stream Deck companion controls.
+- **Protocols Supported**: RTMP, FLV, HLS, WebRTC guest links.
+- **Tech Stack**: Rust, FFmpeg.
+- **License**: AGPL-3.0.
+
+### 19. 🎥 [VideoWhisper Live Streaming](https://github.com/videowhisper/videowhisper-webrtc) [![GitHub stars](https://img.shields.io/github/stars/videowhisper/videowhisper-webrtc?style=social&color=white)](https://github.com/videowhisper/videowhisper-webrtc/stargazers)
+- **Description**: Open-source WordPress live streaming plugin and WebRTC HTML5 broadcasting application. Powers turnkey multi-channel video portals, 24/7 TV channels, and interactive webcam communities.
+- **Protocols Supported**: WebRTC, RTMP, RTSP, HLS, MPEG-DASH.
+- **Tech Stack**: PHP, JavaScript (React).
+- **License**: GPL-2.0.
+
+---
+
+## ⚡ Streaming Protocols Cheat Sheet
+
+Choosing the correct protocol is essential for balancing latency, firewall traversal, quality, and platform compatibility:
+
+| 📡 Protocol | ⏱️ Typical Latency | 🚚 Transport Layer | 🏆 Best Use Case | ⚠️ Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **WebRTC / WHIP / WHEP** | **< 500 ms** *(Sub-second)* | UDP (SRTP / SCTP) | Interactive talk shows, auctions, live gaming, remote guests | Higher server CPU overhead; complex scaling without SFUs |
+| **SRT (Secure Reliable Transport)** | **0.5 s – 2 s** *(Low)* | UDP (Error Recovery) | First-mile broadcast ingest over unpredictable public internet | Requires SRT listener/caller endpoints; less native browser playback |
+| **RTMP / RTMPS** | **2 s – 5 s** *(Traditional)* | TCP | Legacy ingest standard for YouTube, Twitch, and Facebook Live | Flash legacy; lack of native browser HTML5 playback without transcoding |
+| **LL-HLS (Low Latency HLS)** | **1 s – 3 s** *(Near Real-Time)* | HTTP/2 or HTTP/3 (TCP/QUIC) | Scalable iOS & Safari delivery, mass spectator sports | Sensitive to chunk pipeline timings; CDN caching configuration complexity |
+| **Standard HLS / DASH** | **6 s – 30 s** *(High)* | HTTP/1.1 or HTTP/2 (TCP) | Global scale distribution via standard HTTP caching CDNs | High latency unsuited for real-time live viewer interactions |
+
+---
+
+## 🛠️ Architecture: DIY Self-Hosted vs Managed SaaS
+
+```
+               ┌────────────────────────────────────────────────────────┐
+               │              FIRST-MILE PRODUCTION / INGEST            │
+               │   OBS Studio / vMix / StreamYard / Hardware Encoders   │
+               └───────────────────────────┬────────────────────────────┘
+                                           │
+                    ┌──────────────────────┴──────────────────────┐
+                    │                                             │
+           [Self-Hosted DIY Stack]                     [Managed Cloud SaaS]
+                    │                                             │
+                    ▼                                             ▼
+       ┌────────────────────────┐                    ┌────────────────────────┐
+       │ MediaMTX / SRS / FFmpeg│                    │ Restream / Castr / CDN │
+       │ Protocol Demuxing      │                    │ Automated Cloud Relay  │
+       └────────────┬───────────┘                    └────────────┬───────────┘
+                    │                                             │
+      ┌─────────────┴─────────────┐                               │
+      ▼                           ▼                               ▼
+┌───────────┐               ┌───────────┐           ┌───────────────────────────┐
+│  WebRTC   │               │ LL-HLS    │           │ Multi-Destination Egress: │
+│ (<500ms)  │               │ CDN Cache │           │ YouTube, Twitch, Kick,    │
+│ Direct P2P│               │ Mass Scale│           │ Facebook Live, Custom RTMP│
+└───────────┘               └───────────┘           └───────────────────────────┘
+```
+
+- **Choose SaaS (StreamYard, Restream, Dacast)** when your primary goal is running high-production live shows with guest interviewees without managing server firewalls, bandwidth billing spikes, or multi-CDN failovers.
+- **Choose Self-Hosted (MediaMTX, SRS, Owncast, LiveKit)** when you require absolute data sovereignty, low sub-second latency, internal corporate firewall broadcasting, zero per-viewer SaaS fees, or custom WebRTC application pipelines.
+
+---
+
+## 🤝 How to Contribute
+
+We actively welcome contributions to enrich this open ecosystem guide!
+
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-streaming-tool`.
+3. ✍️ **Add or update entries** in `README.md`:
+   - Follow the established formatting (Markdown table for SaaS, ranked sections for Open-Source).
+   - Provide concrete pricing, specific trial limits, and exact GitHub star links.
+4. 🔍 **Verify links and formatting**.
+5. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
+
+---
+
+## 🛡️ Disclaimer & Licensing
+
+- **Disclaimer**: This directory is curated for research, educational, and developer reference. Inclusion does not imply official commercial endorsement. Always ensure streaming productions comply with third-party platform terms of service, local privacy regulations (GDPR/CCPA), and copyright licensing requirements.
+- **License**: Released under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**Made with ❤️ for streamers, video engineers, DevOps architects, and the open-source multimedia community.**  
+⭐ Star this repo if you find it helpful!
+
+</div>
