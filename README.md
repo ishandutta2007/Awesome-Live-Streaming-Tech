@@ -36,7 +36,11 @@
 - [⚡ Streaming Protocols Cheat Sheet](#-streaming-protocols-cheat-sheet)
 - [🛠️ Architecture: DIY Self-Hosted vs Managed SaaS](#️-architecture-diy-self-hosted-vs-managed-saas)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+
 - [🛡️ Disclaimer & Licensing](#️-disclaimer--licensing)
+
 
 ---
 
@@ -261,6 +265,29 @@ We actively welcome contributions to enrich this open ecosystem guide!
    - Provide concrete pricing, specific trial limits, and exact GitHub star links.
 4. 🔍 **Verify links and formatting**.
 5. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
+
+---
+
+## 💖 Support
+
+A heartfelt thank you to everyone exploring, using, and contributing to **Awesome Live Streaming Tech**! If this repository has helped you navigate the live video landscape, architect streaming pipelines, or discover powerful open-source broadcasting tools, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to boost visibility.
+- 🍴 **Fork and share** with fellow developers, creators, and broadcast engineers.
+- 📢 **Spread the word** across communities on Discord, Reddit, LinkedIn, and X (Twitter).
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing curation, updates, and research by visiting the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-💖%20GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Live-Streaming-Tech&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Live-Streaming-Tech&type=date&legend=top-left)
 
 ---
 
