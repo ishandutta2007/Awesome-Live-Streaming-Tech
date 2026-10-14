@@ -12,7 +12,7 @@
 <br/>
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Streaming-Tech?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Live-Streaming-Tech?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Live-Streaming-Tech?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Live-Streaming-Tech/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
@@ -90,117 +90,117 @@ The following SaaS and commercial platforms provide turn-key browser studios, cl
 
 Self-hosted projects give developers and broadcasters complete sovereignty over video pipelines, zero per-minute cloud fees, customizable protocol conversion, and transparent data privacy.
 
-> ⭐ **Sorted Descending by Real-Time GitHub Star Count**:
+> ⭐ **Sorted Descending by Real-Time GitHub Stars_Count**:
 
-### 1. 🥇 [OBS Studio](https://github.com/obsproject/obs-studio) [![GitHub stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers)
+### 1. 🥇 [OBS Studio](https://github.com/obsproject/obs-studio) [![GitHub_Stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=social&color=white)](https://github.com/obsproject/obs-studio/stargazers)
 - **Description**: The industry-standard open-source desktop software for video recording and live broadcasting. Features modular dockable UI, unlimited audio/video scenes and sources, GPU-accelerated compositing, studio mode, and deep plugin extensibility.
 - **Protocols Supported**: RTMP, RTMPS, SRT, WHIP (WebRTC HTTP Ingestion Protocol), HLS.
 - **Tech Stack**: C, C++, Qt, CMake.
 - **License**: GPL-2.0.
 
-### 2. 🥈 [FFmpeg](https://github.com/FFmpeg/FFmpeg) [![GitHub stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers)
+### 2. 🥈 [FFmpeg](https://github.com/FFmpeg/FFmpeg) [![GitHub_Stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers)
 - **Description**: The universal multimedia framework powering virtually every modern streaming engine. Delivers complete command-line tools and libraries (`libavcodec`, `libavformat`, `libavfilter`) to transcode, mux, demux, stream, filter, and play video and audio.
 - **Protocols Supported**: RTMP, RTSP, HLS, DASH, SRT, WebRTC, UDP, RTP, HTTP.
 - **Tech Stack**: C, Assembly.
 - **License**: LGPL-2.1+ / GPL-2.0+.
 
-### 3. 🥉 [Jitsi Meet](https://github.com/jitsi/jitsi-meet) [![GitHub stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers)
+### 3. 🥉 [Jitsi Meet](https://github.com/jitsi/jitsi-meet) [![GitHub_Stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers)
 - **Description**: Fully encrypted, 100% open-source WebRTC video conferencing and interactive multi-user streaming platform. Features Jibri for automated recording and live streaming to YouTube or custom RTMP endpoints.
 - **Protocols Supported**: WebRTC, RTMP (via Jibri), SCTP, RTP/SRTP.
 - **Tech Stack**: JavaScript, React, Java, Go.
 - **License**: Apache-2.0.
 
-### 4. 🚀 [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
+### 4. 🚀 [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub_Stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
 - **Description**: Industrial-grade, high-efficiency real-time video server designed for high-concurrency live broadcasting. Acts as a high-performance protocol bridge between RTMP, WebRTC, HLS, HTTP-FLV, and SRT with low CPU and memory footprints.
 - **Protocols Supported**: RTMP, WebRTC, HLS, HTTP-FLV, SRT, GB28181.
 - **Tech Stack**: C++, Go.
 - **License**: MIT.
 
-### 5. ⚡ [LiveKit](https://github.com/livekit/livekit) [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
+### 5. ⚡ [LiveKit](https://github.com/livekit/livekit) [![GitHub_Stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
 - **Description**: High-performance open-source WebRTC SFU (Selective Forwarding Unit) and real-time infrastructure. Enables developers to build ultra-low latency interactive live streaming, spatial audio, telephony, and bidirectional AI video agents.
 - **Protocols Supported**: WebRTC, WHIP, WHEP, RTMP Ingress/Egress, SIP.
 - **Tech Stack**: Go, TypeScript, Rust.
 - **License**: Apache-2.0.
 
-### 6. 🔄 [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
+### 6. 🔄 [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub_Stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
 - **Description**: Ready-to-use, zero-dependency real-time media server and protocol converter in a single binary. Ingests any media stream and instantly republishes it across multiple outgoing protocols with hot reloading, disk recording, and Prometheus metrics.
 - **Protocols Supported**: RTSP, RTMP, HLS, WebRTC (WHEP/WHIP), SRT, LL-HLS.
 - **Tech Stack**: Go.
 - **License**: MIT.
 
-### 7. 🌐 [Pion WebRTC](https://github.com/pion/webrtc) [![GitHub stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers)
+### 7. 🌐 [Pion WebRTC](https://github.com/pion/webrtc) [![GitHub_Stars](https://img.shields.io/github/stars/pion/webrtc?style=social&color=white)](https://github.com/pion/webrtc/stargazers)
 - **Description**: Pure Go implementation of the WebRTC API. Unlocks custom SFUs, WebRTC-to-RTSP bridges, recording nodes, and headless streaming proxies without external C/C++ dependencies.
 - **Protocols Supported**: WebRTC, DTLS, ICE, RTP, RTCP, SCTP.
 - **Tech Stack**: Go.
 - **License**: MIT.
 
-### 8. 🛡️ [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) [![GitHub stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
+### 8. 🛡️ [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module) [![GitHub_Stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
 - **Description**: The classic Nginx extension module providing RTMP live streaming, video on demand, HLS packaging, and stream relaying. The battle-tested foundation for DIY broadcast relay servers worldwide.
 - **Protocols Supported**: RTMP, HLS, MPEG-DASH.
 - **Tech Stack**: C.
 - **License**: BSD-2-Clause.
 
-### 9. 💬 [Owncast](https://github.com/owncast/owncast) [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
+### 9. 💬 [Owncast](https://github.com/owncast/owncast) [![GitHub_Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
 - **Description**: Autonomous self-hosted live video and web chat server. Delivers a turn-key "personal Twitch" experience directly to your viewers with custom branding, moderation bots, and decentralized ActivityPub / Fediverse federation.
 - **Protocols Supported**: RTMP ingest, HLS playback, ActivityPub federation.
 - **Tech Stack**: Go, Preact.
 - **License**: MIT.
 
-### 10. 🚪 [Janus WebRTC Gateway](https://github.com/meetecho/janus-gateway) [![GitHub stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers)
+### 10. 🚪 [Janus WebRTC Gateway](https://github.com/meetecho/janus-gateway) [![GitHub_Stars](https://img.shields.io/github/stars/meetecho/janus-gateway?style=social&color=white)](https://github.com/meetecho/janus-gateway/stargazers)
 - **Description**: General-purpose WebRTC server engineered by Meetecho. Modular C architecture with plugins for video rooms, audio bridges, SIP gateways, streaming relays, and screen sharing.
 - **Protocols Supported**: WebRTC, RTP, RTCP, RTSP, SIP.
 - **Tech Stack**: C.
 - **License**: GPL-3.0.
 
-### 11. 📦 [Node-Media-Server](https://github.com/illuspas/Node-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/illuspas/Node-Media-Server?style=social&color=white)](https://github.com/illuspas/Node-Media-Server/stargazers)
+### 11. 📦 [Node-Media-Server](https://github.com/illuspas/Node-Media-Server) [![GitHub_Stars](https://img.shields.io/github/stars/illuspas/Node-Media-Server?style=social&color=white)](https://github.com/illuspas/Node-Media-Server/stargazers)
 - **Description**: Lightweight Node.js media server implementation supporting RTMP, HTTP-FLV, WebSocket-FLV, and HLS. Perfect for integrating live streaming directly into Node.js application backends.
 - **Protocols Supported**: RTMP, HTTP-FLV, WS-FLV, HLS, DASH.
 - **Tech Stack**: JavaScript, Node.js.
 - **License**: MIT.
 
-### 12. 🐳 [datarhei Restreamer](https://github.com/datarhei/restreamer) [![GitHub stars](https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white)](https://github.com/datarhei/restreamer/stargazers)
+### 12. 🐳 [datarhei Restreamer](https://github.com/datarhei/restreamer) [![GitHub_Stars](https://img.shields.io/github/stars/datarhei/restreamer?style=social&color=white)](https://github.com/datarhei/restreamer/stargazers)
 - **Description**: Complete Docker-based live streaming GUI solution. Ingests video from webcams, IP cameras, OBS, or RTMP and restreams it directly to YouTube, Twitch, Facebook, or custom websites with a modern web dashboard.
 - **Protocols Supported**: RTMP, SRT, RTSP, HLS, WebRTC (WHEP).
 - **Tech Stack**: Go, TypeScript, Docker.
 - **License**: Apache-2.0.
 
-### 13. 🎛️ [Streamlabs Desktop](https://github.com/streamlabs/desktop) [![GitHub stars](https://img.shields.io/github/stars/streamlabs/desktop?style=social&color=white)](https://github.com/streamlabs/desktop/stargazers)
+### 13. 🎛️ [Streamlabs Desktop](https://github.com/streamlabs/desktop) [![GitHub_Stars](https://img.shields.io/github/stars/streamlabs/desktop?style=social&color=white)](https://github.com/streamlabs/desktop/stargazers)
 - **Description**: Open-source desktop broadcast client built on the OBS engine and Electron. Bundles built-in chat overlay widgets, selective recording, tips integration, and multistreaming setups.
 - **Protocols Supported**: RTMP, RTMPS, SRT.
 - **Tech Stack**: TypeScript, C++, Electron.
 - **License**: GPL-3.0.
 
-### 14. 🏎️ [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
+### 14. 🏎️ [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub_Stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
 - **Description**: Ultra-low latency streaming engine offering scalable WebRTC, CMAF, and HLS delivery. Provides sub-0.5s video playback latency, adaptive bitrate streaming, and autoscaling support on AWS and Kubernetes.
 - **Protocols Supported**: WebRTC, RTMP, RTSP, SRT, HLS, CMAF.
 - **Tech Stack**: Java.
 - **License**: Apache-2.0 (Community Edition).
 
-### 15. 🔴 [Red5 Server](https://github.com/Red5/red5-server) [![GitHub stars](https://img.shields.io/github/stars/Red5/red5-server?style=social&color=white)](https://github.com/Red5/red5-server/stargazers)
+### 15. 🔴 [Red5 Server](https://github.com/Red5/red5-server) [![GitHub_Stars](https://img.shields.io/github/stars/Red5/red5-server?style=social&color=white)](https://github.com/Red5/red5-server/stargazers)
 - **Description**: The veteran open-source Java media server that pioneered RTMP streaming outside of Adobe Flash Media Server. Supports audio/video streaming, multi-user gaming, and recording.
 - **Protocols Supported**: RTMP, RTSP, HLS, WebSockets.
 - **Tech Stack**: Java, Spring.
 - **License**: Apache-2.0.
 
-### 16. 🍳 [OvenMediaEngine](https://github.com/OvenMediaLabs/OvenMediaEngine) [![GitHub stars](https://img.shields.io/github/stars/OvenMediaLabs/OvenMediaEngine?style=social&color=white)](https://github.com/OvenMediaLabs/OvenMediaEngine/stargazers)
+### 16. 🍳 [OvenMediaEngine](https://github.com/OvenMediaLabs/OvenMediaEngine) [![GitHub_Stars](https://img.shields.io/github/stars/OvenMediaLabs/OvenMediaEngine?style=social&color=white)](https://github.com/OvenMediaLabs/OvenMediaEngine/stargazers)
 - **Description**: Sub-second latency streaming server designed for massive multi-viewer interactive broadcasts. Ingests via WebRTC, SRT, or RTMP and delivers sub-second streams via WebRTC and Low-Latency HLS (LL-HLS) to HTML5 players.
 - **Protocols Supported**: WebRTC, LL-HLS, RTMP, SRT, RTSP, MPEG-2 TS.
 - **Tech Stack**: C++.
 - **License**: GPL-2.0.
 
-### 17. 📺 [CasparCG Server](https://github.com/CasparCG/server) [![GitHub stars](https://img.shields.io/github/stars/CasparCG/server?style=social&color=white)](https://github.com/CasparCG/server/stargazers)
+### 17. 📺 [CasparCG Server](https://github.com/CasparCG/server) [![GitHub_Stars](https://img.shields.io/github/stars/CasparCG/server?style=social&color=white)](https://github.com/CasparCG/server/stargazers)
 - **Description**: Professional broadcast graphics and video playout server deployed 24/7 by national television networks (including Sweden's SVT). Renders real-time dynamic HTML5 and Flash motion graphics with SDI/NDI output.
 - **Protocols Supported**: SDI, NDI, RTSP, UDP, Screen playout.
 - **Tech Stack**: C++.
 - **License**: GPL-3.0.
 
-### 18. 🏚️ [Muxshed (shed)](https://github.com/muxshed/shed) [![GitHub stars](https://img.shields.io/github/stars/muxshed/shed?style=social&color=white)](https://github.com/muxshed/shed/stargazers)
+### 18. 🏚️ [Muxshed (shed)](https://github.com/muxshed/shed) [![GitHub_Stars](https://img.shields.io/github/stars/muxshed/shed?style=social&color=white)](https://github.com/muxshed/shed/stargazers)
 - **Description**: Self-hosted broadcast server delivering "one stream in, every destination, no cloud middleman." Features public watch pages, multi-layer scene compositing, 24/7 looping channels, and Stream Deck companion controls.
 - **Protocols Supported**: RTMP, FLV, HLS, WebRTC guest links.
 - **Tech Stack**: Rust, FFmpeg.
 - **License**: AGPL-3.0.
 
-### 19. 🎥 [VideoWhisper Live Streaming](https://github.com/videowhisper/videowhisper-webrtc) [![GitHub stars](https://img.shields.io/github/stars/videowhisper/videowhisper-webrtc?style=social&color=white)](https://github.com/videowhisper/videowhisper-webrtc/stargazers)
+### 19. 🎥 [VideoWhisper Live Streaming](https://github.com/videowhisper/videowhisper-webrtc) [![GitHub_Stars](https://img.shields.io/github/stars/videowhisper/videowhisper-webrtc?style=social&color=white)](https://github.com/videowhisper/videowhisper-webrtc/stargazers)
 - **Description**: Open-source WordPress live streaming plugin and WebRTC HTML5 broadcasting application. Powers turnkey multi-channel video portals, 24/7 TV channels, and interactive webcam communities.
 - **Protocols Supported**: WebRTC, RTMP, RTSP, HLS, MPEG-DASH.
 - **Tech Stack**: PHP, JavaScript (React).
